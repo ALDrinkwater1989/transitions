@@ -1,9 +1,10 @@
-/*.box{
-    width: 50px;
-    height: 50px;
+.box{
+    width: 150px;
+    height: 150px;
     background-color:#bada55;
-    transition-property: width, background-color;
+    transition-property: background-color;
     transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 
 .box:hover{
@@ -12,21 +13,6 @@
     
     
  
-}*/
+}
 
 
-a {
-
-    color: #e84610;
-  
-    font-size: 16px;
-  
-    text-decoration: none
-    transition-property: color;
-    transition-duration: 1s;
-  
-  }
-  
-  a:hover{
-      color: #000;
-  }
